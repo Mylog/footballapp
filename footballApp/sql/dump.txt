@@ -1,3 +1,0 @@
-mysqldump -uroot -proot -h127.0.0.1 -P3306 --routines --default-character-set=utf8 --lock-all-tables --add-drop-database -A > db.all.sql
-FLUSH PRIVILEGES;
-mysql -uroot -proot -h127.0.0.1 -P3306 --default-character-set=utf8 < db.all.sql
